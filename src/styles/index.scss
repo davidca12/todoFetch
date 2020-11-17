@@ -1,0 +1,60 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+@import "~bootstrap/scss/bootstrap.scss";
+body{
+   background:#f8f5f5;
+}
+
+.container{
+    max-width: 1140px;
+    border: solid 1px #cac7c7;
+    padding: 5px;
+    background-color: white;
+}
+h1 {
+  color: #dab7b7;
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    font-size: 28px;
+    height: 4rem;
+    
+    border-color: #f8f5f5;
+    padding-left: 40px;
+    border:none;
+    background: #f8f5f5;
+
+    //border: 1px solid #dee2e6;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dab7b7;
+    padding: 2% 5%;
+
+   
+}
+
+p.left {
+    display: flex;
+    margin-left: 20px;
+}
+
+button {
+    border: none;
+    color: #dab7b7;
+    background:#f8f5f5;
+    
+}
